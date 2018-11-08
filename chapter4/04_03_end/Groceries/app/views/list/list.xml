@@ -1,0 +1,9 @@
+<Page loaded="loaded">
+    <GridLayout>
+        <ListView items="{{ groceryList }}">
+            <ListView.itemTemplate>
+                <Label text="{{ name }}" horizontalAlignment="left" verticalAlignment="center" />
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>
